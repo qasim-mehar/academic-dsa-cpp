@@ -24,4 +24,15 @@ template<class T>
 void Node<T> :: setinfo(T info)
 {
 	this -> info=info;
+}//setinfo
+template<class T>
+void Node<T> :: setnext(Node<T>* next )
+{
+	this -> next=next;
+}//setnext
+
+template<class T>
+T Node<T> :: getinfo()
+{
+	return this->info;
 }
