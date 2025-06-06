@@ -18,3 +18,10 @@ template<class T>
 	Node<T>* getnext();
 	void display();
  };
+ 
+// can be move to node .ccp///// decleration
+template<class T>
+void Node<T> :: setinfo(T info)
+{
+	this -> info=info;
+}
