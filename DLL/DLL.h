@@ -23,3 +23,9 @@ TNode<T>* DLL<T>::getHead()
 {
 	return this->head;
 }//getHead 
+
+	template<class T>
+TNode<T>* DLL<T>::getTail()
+{
+	return this->tail;
+}//getTail
