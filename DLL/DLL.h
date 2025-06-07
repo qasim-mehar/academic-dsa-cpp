@@ -18,3 +18,8 @@ class DLL
 	void reversTraversing();
 	void addToHead(T element);		
 };
+template<class T>
+TNode<T>* DLL<T>::getHead()
+{
+	return this->head;
+}//getHead 
