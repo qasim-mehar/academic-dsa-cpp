@@ -29,3 +29,16 @@ TNode<T>* DLL<T>::getTail()
 {
 	return this->tail;
 }//getTail
+
+template<class T>
+void DLL<T>::forwardTraversing()
+{
+	TNode<T>*ptr=head;
+	while(ptr!=0)
+	{
+    	//	cout<<ptr->getinfo()<<endl;
+	    ptr->display();
+		ptr=(TNode<T>)*ptr->getnext();
+	}	
+	
+}
