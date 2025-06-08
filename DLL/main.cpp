@@ -7,5 +7,6 @@ using namespace std;
 int main(int argc, char** argv) {
   DLL<int> L1;
   L1.addToHead(12);
+  L1.addToHead(28);
  L1.forwardTraversing();
 }
