@@ -42,3 +42,18 @@ void DLL<T>::forwardTraversing()
 	}	
 	
 }
+
+template <class T>
+
+void DLL<T>::addToHead(T element){
+	TNode<T>* n= new TNode<T>(element);
+	if(head=0 && tail==0){
+		head=tail=n;
+	}
+	else{
+		n->setnext(head);
+		head->setprev(n);
+		head =n;
+	}
+}
+
