@@ -35,3 +35,23 @@ void LinkedStack<T>::push (T element)
 			top=n;
 		}	
 }
+template <class T>
+T LinkedStack<T>::pop()
+{ 	
+   if(top==0 )
+		{
+			cout<<"There is nothing to delete\n";
+		}
+		/*else if(head==tail)
+		{
+			delete head;
+			head=tail=0;
+		}*/
+		else
+		{
+		Node<T> *i =top->getnext();
+		delete top;
+		top=i;		
+		}
+}
+
