@@ -19,3 +19,19 @@ class LinkedStack
 		bool isEmpty();
 	    T topValue();
 };
+template <class T>
+void LinkedStack<T>::push (T element)
+{
+
+	Node<T>* n=new Node<T> (element);
+		
+		if(top==0)
+		{
+			top=n;
+		}
+		else
+		{
+			n->setnext(top);
+			top=n;
+		}	
+}
