@@ -61,3 +61,10 @@ bool LinkedStack<T>:: isEmpty()
 {
 	return top==0;
 }
+
+template <class T>
+T LinkedStack<T>::topValue()
+{
+	return top->getinfo();
+}
+
