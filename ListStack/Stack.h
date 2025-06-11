@@ -55,3 +55,9 @@ T LinkedStack<T>::pop()
 		}
 }
 
+
+template <class T>
+bool LinkedStack<T>:: isEmpty()
+{
+	return top==0;
+}
