@@ -28,4 +28,7 @@ void Course::setcourseCode(string courseCode)
 		this->courseCode=courseCode;
 	}
 	
-	
+	 void Course::setcourseName(string courseName)
+	{
+		this->courseName=courseName;
+	}
