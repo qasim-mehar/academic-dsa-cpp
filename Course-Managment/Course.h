@@ -23,3 +23,9 @@ class Course
 		int getcreditHours();
 		void display();
 };
+void Course::setcourseCode(string courseCode)
+	{
+		this->courseCode=courseCode;
+	}
+	
+	
