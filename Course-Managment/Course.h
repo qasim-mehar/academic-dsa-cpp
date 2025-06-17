@@ -32,3 +32,8 @@ void Course::setcourseCode(string courseCode)
 	{
 		this->courseName=courseName;
 	}
+		void Course::setcreditHours(int creditHours)
+	{
+		this->creditHours=creditHours;
+	}
+	
