@@ -36,4 +36,9 @@ void Course::setcourseCode(string courseCode)
 	{
 		this->creditHours=creditHours;
 	}
-	
+	void Course::display()
+	{
+		cout<<this->courseCode<<endl;
+		cout<<this->courseName<<endl;
+		cout<<this->creditHours<<endl;
+	}
