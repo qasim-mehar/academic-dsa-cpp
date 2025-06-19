@@ -10,3 +10,13 @@ class CourseL:public LinkedList<T>
         void deletefrom(T element);
 
 };
+template<class T>
+void CourseL<T>::Traverse(){
+	Node<T> *i = this->getHead();
+	while(i!=0){
+	
+		//i->display();
+		i->getinfo()->display();
+		i=i->getNext();
+	}
+} 
