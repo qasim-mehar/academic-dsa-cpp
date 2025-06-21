@@ -33,3 +33,8 @@ template <class T>
 void TreeNode<T>::setRight(TreeNode<T>* right){
 	this->right=right;
 }
+template <class T>
+
+T TreeNode<T>::getInfo(){
+	return info;
+}
