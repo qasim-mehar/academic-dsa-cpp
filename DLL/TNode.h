@@ -42,3 +42,7 @@ template <class T>
  TreeNode<T>* TreeNode<T>::getLeft(){
 	return left;
 }
+template <class T> 
+TreeNode<T>* TreeNode<T>::getRight(){
+	return right;
+}
