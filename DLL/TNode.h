@@ -38,3 +38,7 @@ template <class T>
 T TreeNode<T>::getInfo(){
 	return info;
 }
+template <class T>
+ TreeNode<T>* TreeNode<T>::getLeft(){
+	return left;
+}
