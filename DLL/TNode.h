@@ -29,3 +29,7 @@ template <class T>
 void TreeNode<T>::setLeft(TreeNode<T>* left){
 	this->left=left;
 }
+template <class T>
+void TreeNode<T>::setRight(TreeNode<T>* right){
+	this->right=right;
+}
