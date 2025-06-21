@@ -46,3 +46,7 @@ template <class T>
 TreeNode<T>* TreeNode<T>::getRight(){
 	return right;
 }
+template <class T>
+ void  TreeNode<T>::display(){
+ 	cout<<"("<<this->left<<")"<<"|"<<this<<"|"<<this->info<<"|"<<this->right<<"|"<<endl;
+ }
