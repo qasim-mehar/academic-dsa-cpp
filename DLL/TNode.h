@@ -25,3 +25,7 @@ template <class T>
 void TreeNode<T>::setInfo(T info){
 	this->info=info;
 }
+template <class T>
+void TreeNode<T>::setLeft(TreeNode<T>* left){
+	this->left=left;
+}
