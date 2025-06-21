@@ -19,3 +19,9 @@ template<class T>
 	Node<T>* getnext();
 	void display();
  };
+
+ 
+template <class T>
+void TreeNode<T>::setInfo(T info){
+	this->info=info;
+}
